@@ -1,0 +1,78 @@
+body{
+    margin: 0%;
+}
+.whole{
+    border: 0px solid; height: 100vh; width: 100%;
+    background-image: url(image/purpke.avif)
+}
+.navbar{
+    border: 0px solid; width: 100%; height: 8vh;  border-right: 0px;
+    display: grid;
+}
+.table{
+    border: 1px solid;
+    width: 90%; height: 40px; 
+    margin: auto; 
+    margin-top: 5px ;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.menu{
+    background-color: rgb(233, 233, 233) ;
+    color: purple;
+    display: flex;
+    align-items: center; justify-content: center;
+}
+
+.text:hover{ 
+    background-color: rgb(233, 233, 233);
+}
+.content{
+    width: 100%; height: 92vh;
+    display: grid;
+}
+.profile{
+   border: 1px solid; width: 90%; height: 85vh; border-color: blueviolet; 
+  margin: auto; 
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+}
+.img{
+    border: 0px solid; width: 20px; height: 20px; border-radius: 50px;
+    
+}
+.RESUME{
+    color: rgb(180, 180, 180); margin: 0px;
+} 
+.T{
+    border: 0px solid; width: 20px; height: 20px; margin-bottom: 5px; color:rgb(180, 180, 180) ;
+}
+.paragraph{
+    font-size: 50px; margin-top: 140px; margin-bottom: 0px;
+}
+.para{
+    font-size: 20px; margin:0px; display: grid;
+    color: gray;
+}
+.par{
+    border: 0px solid; width: 50%; height: 70vh; text-align: center;
+    
+} 
+.picture{
+    border: 2px solid; height: 80vh; border-radius: 15px; margin: auto;
+}
+.bit{
+    border: 0px; width: 100%; height: 80vh;  margin: auto; border-radius: 11px;
+}
+.surname{
+    color: purple;
+}
+.atag{
+    display: flex;
+    text-decoration: none; align-items: center; justify-content: center;
+    color: gray;
+}
+.atag:hover .atag{ color: purple;
+
+}
